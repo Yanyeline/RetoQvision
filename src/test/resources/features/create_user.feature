@@ -1,4 +1,4 @@
-Feature: Create a new user
+Feature: User
 
   Scenario Outline: Create a new user in Utest
     Given User is on the home page
