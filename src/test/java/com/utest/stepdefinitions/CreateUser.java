@@ -19,6 +19,7 @@ public class CreateUser {
 
     @Given("^User is on the home page$")
     public void user_is_on_the_home_page() {
+
         theActorInTheSpotlight().wasAbleTo(OpenTheAplication.withUrl());
     }
 

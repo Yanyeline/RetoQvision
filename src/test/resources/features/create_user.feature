@@ -23,5 +23,5 @@ Feature: User
       | email          | <email>          |
       | createPassword | <createPassword> |
     Examples:
-      | firstName | lastName | email             | birthMonth | birthDay | birthYear | languages | city     | postalCode | country  | MobileDevice | model     | operatingSystem | createPassword | confirmPassword |
-      | Claudia   | Loaiza   | claul98@gmail.com | August     | 3        | 1998      | Spanish   | Medellín | 050040     | colombia | Apple        | iphone 11 | iOS 14          | Yanye980803    | Yanye980803     |
+      | firstName | lastName | email               | birthMonth | birthDay | birthYear | languages | city     | postalCode | country  | MobileDevice | model     | operatingSystem | createPassword | confirmPassword |
+      | Yanyeline | Bueno    | Yanyeline@gmail.com | August     | 3        | 1998      | Spanish   | Medellín | 050040     | colombia | Apple        | iphone 11 | iOS 14          | Yanye980803    | Yanye980803     |

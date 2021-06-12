@@ -4,7 +4,7 @@
   <system-out><![CDATA[
 1 Scenarios (1 passed)
 3 Steps (3 passed)
-1m28,757s
+0m45,793s
 
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
@@ -24,7 +24,7 @@
  Learn Serenity BDD online at http://serenity-dojo.com                               
 -------------------------------------------------------------------------------------
 ?[0m
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Create a new user
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: User
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
@@ -34,7 +34,7 @@
                                                                   
 
 TEST STARTED: Create a new user in Utest
--------------------------------------------------------------------(create-a-new-user;create-a-new-user-in-utest)
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Example: {firstName=camilo, lastName=banol lopez, email=cba123@gmail.com, birthMonth=August, birthDay=3, birthYear=1998, languages=Spanish, city=Medellín, postalCode=050040, country=colombia, MobileDevice=Apple, model=iphone 11, operatingSystem=iOS 14, createPassword=Yanye980803, confirmPassword=Yanye980803}
+-------------------------------------------------------------------(user;create-a-new-user-in-utest)
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Example: {firstName=Claudia, lastName=Loaiza, email=claul98@gmail.com, birthMonth=August, birthDay=3, birthYear=1998, languages=Spanish, city=Medellín, postalCode=050040, country=colombia, MobileDevice=Apple, model=iphone 11, operatingSystem=iOS 14, createPassword=Yanye980803, confirmPassword=Yanye980803}
 ]]></system-err>
 </testsuite>

@@ -1,4 +1,4 @@
-Feature: Create a new user
+Feature: User
 
   Scenario Outline: Create a new user in Utest
     Given User is on the home page
@@ -23,5 +23,5 @@ Feature: Create a new user
       | email          | <email>          |
       | createPassword | <createPassword> |
     Examples:
-      | firstName | lastName    | email            | birthMonth | birthDay | birthYear | languages | city     | postalCode | country  | MobileDevice | model     | operatingSystem | createPassword | confirmPassword |
-      | camilo    | banol lopez | cba123@gmail.com | August     | 3        | 1998      | Spanish   | Medellín | 050040     | colombia | Apple        | iphone 11 | iOS 14          | Yanye980803    | Yanye980803     |
+      | firstName | lastName | email             | birthMonth | birthDay | birthYear | languages | city     | postalCode | country  | MobileDevice | model     | operatingSystem | createPassword | confirmPassword |
+      | Claudia   | Loaiza   | claul98@gmail.com | August     | 3        | 1998      | Spanish   | Medellín | 050040     | colombia | Apple        | iphone 11 | iOS 14          | Yanye980803    | Yanye980803     |
